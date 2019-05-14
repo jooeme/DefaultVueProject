@@ -1,0 +1,53 @@
+{
+  // 使用插件格式化 html
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "printWidth": 128
+    },
+    "prettier": {
+      "printWidth": 128,
+      "proseWrap": "never"
+    }
+  },
+  "vetur.validation.template": false,
+  // 开启 eslint 支持
+  "prettier.eslintIntegration": true,
+  // 结尾加上逗号
+  "prettier.trailingComma": "all",
+  // 保存时自动fix
+  "eslint.autoFixOnSave": true,
+  // 添加 vue 支持
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "vue", "autoFix": true }
+  ],
+  "workbench.statusBar.feedback.visible": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "'Dank Mono',Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // 以下为stylus配置
+  "stylusSupremacy.insertColons": false, // 是否插入冒号
+  "stylusSupremacy.insertSemicolons": false, // 是否插入分号
+  "stylusSupremacy.insertBraces": false, // 是否插入大括号
+  "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+  "stylusSupremacy.insertNewLineAroundBlocks": false, // 两个选择器中是否换行
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
