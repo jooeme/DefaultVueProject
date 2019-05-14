@@ -1,4 +1,4 @@
-# default_vue_project
+# vscode 默认 vue 启动配置
 
 ## Project setup
 
