@@ -6,13 +6,7 @@ module.exports = {
   extends: ["plugin:vue/essential", "eslint:recommended"],
   rules: {
     // enable additional rules
-    indent: [
-      "error",
-      2,
-      {
-        SwitchCase: 1
-      }
-    ],
+    indent: ["error", 2, { SwitchCase: 1 }],
 
     "linebreak-style": ["error", "unix"],
     quotes: ["error", "double"],
