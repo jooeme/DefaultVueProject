@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   env: {
-    node: true
+    node: true,
   },
   extends: ["plugin:vue/essential", "eslint:recommended"],
   rules: {
@@ -18,9 +18,9 @@ module.exports = {
 
     // disable rules from base configurations
     "no-console": "off",
-    "no-debugger": "off"
+    "no-debugger": "off",
   },
   parserOptions: {
-    parser: "babel-eslint"
-  }
-};
+    parser: "babel-eslint",
+  },
+}
