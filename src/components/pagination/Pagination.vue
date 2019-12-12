@@ -127,46 +127,57 @@ export default {
   }
 };
 </script>
-<style lang="stylus" scoped>
-.pagination
-  margin 0
-  padding 0
-  list-style none outside none
-  display flex
-  justify-content center
-  align-items center
-  li
-    margin 0 4px
-    padding 0
-    list-style none outside none
-    line-height 25px
-  select
-    height 30px
-    font-size 14px
-    appearance none
-    padding 0 16px 0 10px
-    background url('../../assets/icon/icon-pull-up-down.png') right 4px center no-repeat #e8e8f2
-    background-size 8px
-    border 0 none
-    border-radius 6px
-  button
-    cursor pointer
-    height 30px
-    background #e8e8f2
-    padding 0 15px
-    border-radius 6px
-    font-size 14px
-    &:hover, &:active, &:focus, &.active
-      text-decoration none
-      background #7d00a1
-      color #ffffff
-    &:disabled
-      color #ccc
-      &:hover
-        color #ccc
-        background #e8e8f2
-      &.active
-        text-decoration none
-        background #7d00a1
-        color #ffffff
+<style lang="scss" scoped>
+.pagination {
+  margin: 0;
+  padding: 0;
+  list-style: none outside none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    margin: 0 4px;
+    padding: 0;
+    list-style: none outside none;
+    line-height: 25px;
+  }
+  select {
+    height: 30px;
+    font-size: 14px;
+    appearance: none;
+    padding: 0 16px 0 10px;
+    background: url("../../assets/icon/icon-pull-up-down.png") right 4px center no-repeat #e8e8f2;
+    background-size: 8px;
+    border: 0 none;
+    border-radius: 6px;
+  }
+  button {
+    cursor: pointer;
+    height: 30px;
+    background: #e8e8f2;
+    padding: 0 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    &:hover,
+    &:active,
+    &:focus,
+    &.active {
+      text-decoration: none;
+      background: #7d00a1;
+      color: #ffffff;
+    }
+    &:disabled {
+      color: #ccc;
+      &:hover {
+        color: #ccc;
+        background: #e8e8f2;
+      }
+      &.active {
+        text-decoration: none;
+        background: #7d00a1;
+        color: #ffffff;
+      }
+    }
+  }
+}
 </style>

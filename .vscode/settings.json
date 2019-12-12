@@ -11,8 +11,6 @@
     }
   },
   "vetur.validation.template": false,
-  // 开启 eslint 支持
-  "prettier.eslintIntegration": true,
   // 结尾加上逗号
   "prettier.trailingComma": "all",
   // 保存时自动fix
